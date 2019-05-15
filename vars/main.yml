@@ -1,0 +1,7 @@
+---
+# vars file for terraform-ansible-install
+
+trf_ver: '0.11.13'
+trf_file: 'terraform_{{ trf_ver }}_linux_amd64.zip'
+
+

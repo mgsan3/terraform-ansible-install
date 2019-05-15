@@ -1,0 +1,12 @@
+---
+# defaults file for terraform-ansible-install
+#
+
+trf_url: https://releases.hashicorp.com/terraform
+trf_path: /usr/local/bin
+
+apt_repo: http://ppa.launchpad.net/ansible/ansible/ubuntu
+key_server: keyserver.ubuntu.com
+key_id: 93c4a3fd7bb9c367
+
+epel_repo: https://download.fedoraproject.org/pub/epel/$releasever/$basearch/

@@ -1,0 +1,8 @@
+---
+# tasks file for terraform-ansible-install
+
+  - name: Unarchive a file that needs to be downloaded
+    unarchive:
+      src: '{{ trf_url }}/{{ trf_ver }}/{{ trf_file }}'
+      dest: '{{ trf_path }}'
+      remote_src: yes
